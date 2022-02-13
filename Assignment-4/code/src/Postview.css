@@ -1,11 +1,39 @@
-.site-container{
-  text-align: center;
+.each-card{
+  width:36vw;
+  margin-left: 31vw;
+  border: 1px solid;
+  margin-bottom: 40px;
 }
-html {
-  font-size: 14px;
+
+.name{
+  margin: 20px;
 }
-body {
-  line-height: 1.5;
-  color: black;
-  margin:0;
-} 
+
+button{
+  float: right;
+  font-size: large;
+  border: 0;
+  background-color: white;
+}
+
+
+
+.img{
+  width: 100%;
+}
+
+.like-share{
+  margin: 10px;
+}
+
+.like-share img{
+  height: 40px;
+}
+
+.like-share span{
+  float: right;
+}
+
+.like-share p{
+  margin-left:10px;
+}
