@@ -1,1 +1,50 @@
+.container{
+    height: 100%;
+    width: 100%;
+}
 
+.yellow,.red,.blue{
+    height: 33%;
+}
+ .yellow-content{
+     margin: 10px;
+     display: inline-block;
+     height: 120px;
+     background-color: yellow;
+     width : 47%;
+ }
+ .red-content{
+    margin: 10px;
+    display: inline-block;
+    height: 120px;
+    background-color: red;
+    width : 97%;
+}
+.blue-content{
+    margin: 10px;
+    display: inline-block;
+    height: 120px;
+    background-color: lightblue;
+}
+
+@media screen and (min-device-width:1024px){
+    .blue-content{
+        width: 31.3%;
+    }
+}
+
+@media screen and (min-device-width:768px) and (max-device-width:1023px){
+    .blue-content{
+        width: 98%;
+    }
+
+}
+
+@media screen and (max-device-width:767px){
+    .blue-content{
+        width: 98%;
+    }
+    .yellow-content{
+        width: 98%;
+    }
+}
